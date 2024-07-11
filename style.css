@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.Sup {
+
+    background-color: #002b74;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    
+
+}
+
+body {
+    background: linear-gradient(135deg, #c1c1c1, #ccc9c9);
+}
+
+.cuerpogeneral{
+
+    background-color: white;
+
+}
+
+
+.contenedorprincipal{
+
+    background-color: white;
+
+}
+
+
+/* Clase para ocultar la barra de navegación */
+.navbar-hide {
+    transform: translateY(-100%);
+    transition: transform 0.5s ease;
+}
+
+/* Clase para mostrar la barra de navegación */
+.navbar-show {
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+
+.tituloo a{
+
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.loguito img {
+
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+
+}
+
+.loguito span{
+
+    padding-left: 10px;
+    
+}
+
+
+.navbar{
+
+    background-color: #8a2be2; border-bottom: 1px solid blueviolet;
+    display: flex;
+    height: auto;
+
+}
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    display: flex;
+}
+
+.nav-item a {
+
+    color: white;
+
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #000000; /* Color y grosor de la línea */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.container p{
+
+    padding-left: 0%;
+
+}
+
+.navbar navbar-expand-lg{
+
+    color:#002b74;
+
+}
+
+.iconosbostraap{
+
+    padding-left: 90%;
+    padding-top: 2px;
+
+}
+
+
+
+.buscar{
+
+    padding-left: 80%;
+}
+
+.menumenu{
+
+    padding-right: 3%;
+
+}
+
+
+
+@media (max-width: 576px) {
+    .buscar {
+        text-align: center;
+    }
+
+    .buscar form {
+        display: inline-block;
+    }
+
+    .buscar input[type="search"] {
+        max-width: 100%;
+    }
+
+    .buscar button[type="submit"] {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+
+
+.misimagenes{
+
+    padding-left: 30%;
+
+}
+
+.contenedorinfoprincipal{
+
+    padding-top: 5%;
+
+
+}
+
+.carousel-inner .carousel-item img {
+
+    height: 600px;
+    object-fit: cover;
+}
+
+.linea-separadora {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px solid #ccc;
+}
+
+.imagen-clickable {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.otro-contenido {
+    background-color: #7f12e6; /* Color morado */
+    padding: 20px; /* Añadir espacio alrededor del contenido */
+    border-radius: 40px; /* Bordes redondeados */
+    height: 518px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.otro-contenido h4{
+
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+    font-weight: bold; font-size: 1.5rem;
+}
+
+.subtitulos h5 {
+
+    color: aliceblue;
+
+}
+
+.infovideo p {
+
+        color: aliceblue;
+
+}
+
+
+.otro-contenido .embed-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporción 16:9 para video responsivo */
+    position: relative;
+    height: 0;
+}
+
+.otro-contenido .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ultimo{
+    background-color: #002b74;
+    height: 600px;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.foro img{
+
+    height: 600px;
+
+}
+
+.foro h1{
+
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+
+}
+
+.superiorfinal{
+
+    background-color: #002b74;
+    display: flex;
+}
+
+.formulario{
+
+    background-color:rgb(245, 245, 245);
+}
+
+.final{
+    background-color: #002b74;
+
+}
+
+.bontonenviar .btn-primary button{
+
+    background-color: #dddddd;
+    font-weight: bold;
+}
+
+ /* Estilo para el botón */
+ .boton-regresar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color:#7f12e6;
+    color: #fff;
+    border: none;
+    border-radius: 100%; /* Hace que el botón sea circular */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+
+
+
+  }
+
+  /* Estilo para el ícono dentro del botón */
+  .boton-regresar i {
+    font-size: 24px;
+  }
+
+  /* Estilo para animar el botón */
+  .boton-regresar:hover {
+    background-color: #0056b3;
+  }
+
+ /* estilo de sobre nosotros */
+
+ .sobre-nosotros {
+    max-width: 900px; /* Ajusta el ancho según sea necesario */
+    margin: auto; /* Centra el div horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f8f9fa; /* Color de fondo */
+    border: 1px solid #dee2e6; /* Borde del div */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.sobre-nosotros h2 {
+    color: #007bff; /* Color del título */
+}
+
+.sobre-nosotros p {
+    font-size: 1.1rem; /* Tamaño de fuente */
+}

@@ -1,0 +1,113 @@
+
+body, html {
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 0%;
+}
+
+.CabeseraPrincipal{
+
+    background-color: #002b74;
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.enlaces h5 {
+
+    color: white;
+    text-align: right;
+    margin: 30px 30px;
+    background-color: darkgreen;
+}
+
+.imglogos, .enlaces{
+
+    right: 0;
+    position: left;
+    margin: 0;
+    position: absolute;
+    margin: auto;
+    position: 0;
+}
+
+.MenuSuperiror{
+
+    background-color: #8a2ce2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+
+}
+
+.Titulo{
+
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: darkkhaki;
+    margin: 50px 50px;
+}
+
+.Menu{
+
+    right: 0;
+    position: center;
+    margin: 0;
+    position: absolute;
+
+}
+
+.Links{
+    background-color: chocolate;
+    margin: 90px 90px;
+    position: center;
+
+}
+
+
+
+.Links a {
+
+    color: aliceblue;
+    text-decoration: none;
+    margin: 5px 5px;
+    position: center;
+
+}
+
+.Imagen{
+
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    background-color: coral;
+    
+    
+}
+
+.miIMAGEN {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.Imagen text-center{
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+
+}
+
+.Imagen img{
+
+    transition: opacity 0.5s ease;
+
+}
